@@ -7,8 +7,6 @@ function bab(n, page) {
         // Arahkan ke halaman evaluasi
         window.location.href = "evaluasi.html";
 
-    } else if (n && page === null) {
-        window.location.href = `ARAB/Bab ${n}.html`;
     } else {
         console.error("Parameter tidak valid!");
     }

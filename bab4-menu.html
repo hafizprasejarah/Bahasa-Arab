@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu BAB 4</title>
     <link rel="stylesheet" href="style/style.css">
+    <script src="script/script.js"></script>
 </head>
 
 <body>
     <div class="particles" id="particles">
-        <div class="container ">
+        <div class="container">
             <div class="main-card menu">
                 <div class="glow-effect"></div>
 
@@ -32,45 +33,50 @@
                 </div>
 
                 <!-- MENU GRID -->
-                <div class="submenu-grid" >
+                <div class="submenu-grid">
 
                     <!-- Mufrodat -->
-                    <button class="btn btn-submenu btn-mufrodat click-effect" onclick="openTab('mufrodat')">
+                    <button class="btn btn-submenu btn-mufrodat click-effect" 
+                    onclick="babPage('mufrodat','4')">
                         <div style="font-size: 36px; margin-bottom: 5px;">📖</div>
                         <div class="arabic-text" style="font-size: 20px;">الْمُفْرَدَاتُ</div>
                         <div style="font-size: 15px;">Mufrodat</div>
                     </button>
 
                     <!-- Istima -->
-                    <button class="btn btn-submenu btn-istima click-effect">
+                    <button class="btn btn-submenu btn-istima click-effect"
+                    onclick="babPage('istima','4')">
                         <div style="font-size: 36px; margin-bottom: 5px;">👂</div>
                         <div class="arabic-text" style="font-size: 20px;">الْاِسْتِمَاعُ</div>
                         <div style="font-size: 15px;">Istima'</div>
                     </button>
 
                     <!-- Qiroah -->
-                    <button class="btn btn-submenu btn-qiroah click-effect">
+                    <button class="btn btn-submenu btn-qiroah click-effect"
+                    onclick="babPage('qiroah','4')">
                         <div style="font-size: 36px; margin-bottom: 5px;">📚</div>
                         <div class="arabic-text" style="font-size: 20px;">الْقِرَاءَةُ</div>
                         <div style="font-size: 15px;">Qiro'ah</div>
                     </button>
 
                     <!-- Qowaid -->
-                    <button class="btn btn-submenu btn-qowaid click-effect">
+                    <button class="btn btn-submenu btn-qowaid click-effect"
+                     onclick="babPage('qowaid','4')">
                         <div style="font-size: 36px; margin-bottom: 5px;">📝</div>
                         <div class="arabic-text" style="font-size: 20px;">الْقَوَاعِدُ</div>
                         <div style="font-size: 15px;">Qowaid</div>
                     </button>
 
                     <!-- Kalam -->
-                    <button class="btn btn-submenu btn-kalam click-effect">
+                    <button class="btn btn-submenu btn-kalam click-effect"
+                    onclick="babPage('kalam','4')">
                         <div style="font-size: 36px; margin-bottom: 5px;">🗣️</div>
                         <div class="arabic-text" style="font-size: 20px;">الْكَلَامُ</div>
-                        <div style="font-size: 15px;">Berbicara</div>
+                        <div style="font-size: 15px;">Kalam</div>
                     </button>
 
                     <!-- Quizz -->
-                    <button class="btn btn-submenu btn-quizz click-effect" onclick="navigateToPage('evaluationPage')"
+                    <button class="btn btn-submenu btn-quizz click-effect" onclick="babPage('quiz','4')"
                         style="background: linear-gradient(135deg, #10b981, #059669);">
                         <div style="font-size: 36px; margin-bottom: 5px;">📊</div>
                         <div style="font-size: 15px;">Quizz</div>
