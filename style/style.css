@@ -167,7 +167,7 @@ body {
     right: 0;
     z-index: 100;
     box-shadow: 0 10px 30px rgba(59, 130, 246, 0.4);
-    
+
 }
 
 .btn-secondary:hover {
@@ -344,7 +344,6 @@ body {
     /* font-size: 18px; */
     margin: 8px;
     width: 320px;
-    height: 130px;
     border-radius: 25px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     flex-direction: column;
@@ -433,7 +432,6 @@ body {
 
     .btn-submenu {
         width: 300px;
-        height: 125px;
         padding: 15px;
     }
 }
@@ -511,16 +509,10 @@ body {
         font-size: 16px;
     }
 
-    .submenu-grid {
-        grid-template-columns: 1fr;
-        gap: 15px;
-        margin: 30px 0;
-    }
+
 
     .btn-submenu {
-        width: 100%;
         max-width: 360px;
-        height: 120px;
         margin: 0 auto;
     }
 }
@@ -569,9 +561,15 @@ body {
         font-size: 13px;
     }
 
+    .submenu-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin: 30px 0;
+    }
+
     .btn-submenu {
+        grid-template-columns: 1fr;
         max-width: 280px;
-        height: 95px;
         font-size: 15px;
     }
 
@@ -654,7 +652,6 @@ body {
 
     .btn-submenu {
         max-width: 260px;
-        height: 90px;
         font-size: 14px;
     }
 
@@ -702,7 +699,6 @@ body {
 
     .btn-submenu {
         max-width: 240px;
-        height: 85px;
         font-size: 13px;
     }
 
@@ -740,8 +736,6 @@ body {
     }
 
     .btn-submenu {
-        width: 180px;
-        height: 80px;
         font-size: 12px;
     }
 
@@ -967,7 +961,6 @@ body {
 
     .btn-submenu {
         max-width: 280px;
-        height: 95px;
         font-size: 15px;
     }
 
@@ -1050,7 +1043,6 @@ body {
 
     .btn-submenu {
         max-width: 260px;
-        height: 90px;
         font-size: 14px;
     }
 
@@ -1098,7 +1090,6 @@ body {
 
     .btn-submenu {
         max-width: 240px;
-        height: 85px;
         font-size: 13px;
     }
 
@@ -1137,7 +1128,6 @@ body {
 
     .btn-submenu {
         width: 180px;
-        height: 80px;
         font-size: 12px;
     }
 
