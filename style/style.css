@@ -164,10 +164,16 @@ body {
     font-size: 16px;
     position: fixed;
     top: 30px;
-    right: 0;
+    right: 15px;
     z-index: 100;
     box-shadow: 0 10px 30px rgba(59, 130, 246, 0.4);
 
+}
+
+.btn-secondary.quiz{
+        right: 0px;
+        top: 0;
+        position: relative;
 }
 
 .btn-secondary:hover {
@@ -519,10 +525,12 @@ body {
 
 @media (max-width: 576px) {
     .main-card {
+
         padding: 25px 15px;
         margin: 8px;
         border-radius: 20px;
     }
+
 
     .main-title {
         font-size: 28px;
